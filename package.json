@@ -1,0 +1,19 @@
+{
+  "name": "create-dtx-ts-node",
+  "version": "1.0.0",
+  "description": "Initializer for simple typescript node script",
+  "main": "index.js",
+  "bin": {
+    "create-dtx-ts-node": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node ./bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Korawit Chukamnoet - d605",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "path": "^0.12.7"
+  }
+}
