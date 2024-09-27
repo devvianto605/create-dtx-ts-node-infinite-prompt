@@ -22,15 +22,9 @@ npm install typescript ts-node @types/node --save-dev
 # Create a tsconfig.json file
 npx tsc --init
 
-# Create a basic TypeScript file
-cat <<EOT > index.ts
-const greeting: string = "Hello, TypeScript with Node!";
-console.log(greeting);
-EOT
-
 # Add scripts to package.json
 npx json -I -f package.json -e 'this.scripts={
-  "start": "ts-node index.ts",
+  "start": "ts-node ./index.ts",
   "build": "tsc --outDir dist",
   "serve": "node dist/index.js"
 }'

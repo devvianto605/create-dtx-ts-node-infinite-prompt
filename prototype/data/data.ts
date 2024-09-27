@@ -1,0 +1,1 @@
+export const data: string = "Welcome to the Typescript Node Script Initializer!";
